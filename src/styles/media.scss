@@ -1,0 +1,66 @@
+@import "colors";
+@media screen and (width<800px){
+    .home3{
+        div{
+            padding: 0rem;
+            height: 120vh;
+            width: 80%;
+            h1{
+                font:2rem;
+            }
+            p{
+            letter-spacing: 0.5px;
+            word-spacing: 2px;
+            line-height: 100%;
+            font: italic 200 1.2rem $text2;
+            padding: 0.1rem;
+            }
+        }
+    }
+    .home4{
+        #brand-wrap{
+          width: 80%;
+          article{
+            div{
+                width:5rem;
+                height: 5rem;
+            }
+          }
+        }
+
+    }
+    .contact{
+        main{
+            height: 100vh;
+            width: 100%;
+        }
+    }
+}
+@media screen and (width<1300px){
+    .home4{
+        #brand-wrap{
+          width: 85%;
+          article{
+            div{
+                width:7rem;
+                height: 7rem;
+            }
+          }
+        }
+
+    }
+}
+@media  screen and (width<600px) {
+    .home4{
+        #brand-wrap{
+          width: 100%;
+          article{
+            div{
+                width:5rem;
+                height: 5rem;
+            }
+          }
+        }
+
+    }
+}
